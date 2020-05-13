@@ -1,0 +1,496 @@
+@media(max-width: 1200px) {
+    .header {
+        .row {
+            justify-content: center;
+        }
+        &__item {
+            width: 190px;
+            display: flex;
+            justify-content: center;
+            &_inf {
+                &_descr {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .promo {
+        &__phone {
+            margin-top: 138px;
+            width: 350px;
+        }
+    }
+    .adv {
+        min-height: 820px;
+        &__question-item {
+            width: 280px;
+            height: 230px;
+        }
+    }
+    .solution {
+        height: 800px;
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__slider {
+            &_item {
+                width: 725px;
+            }
+        }
+        .arrow-left, .arrow-right {
+            position: absolute;
+            top: 64%;
+        }
+        .arrow-left {
+            left: 5%
+        }
+        .arrow-right {
+            right: 6%;
+        }
+    }
+    .privil {
+        min-height: 1200px;
+        &__item {
+            padding: 0;
+            &_img {
+                width: 100%
+            }
+        }
+    }
+    .storage {
+        &__header {
+            top: 45px;
+        }
+        &__cloud, &__server {
+            height: 430px;
+            &_square {
+                top: 28%;
+                width: 120px;
+            }
+            &_header {
+                top: 180px;
+                font-size: 24px;
+            }
+            &_descr {
+                font-size: 14px;
+                top: 205px;
+            }
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .header {
+        &__item {
+            &_inf {
+                &_descr {
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+    .promo {
+        &__main-text {
+            font-size: 27px;
+            line-height: 27px;
+        }
+        &__main-descr {
+            font-size: 19px;
+            line-height: 19px;
+        }
+    }
+    .adv {
+        height: 640px;
+        min-height: 640px;
+        padding: 80px 0 0 0;
+        &__question-item {
+            width: 200px;
+            height: 180px;
+            margin-bottom: 40px;
+            &_descr {
+                font-size: 14px;
+                &_sol {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .solution {
+        height: 700px;   
+        &__tabs {
+            width: 700px;
+            ul {
+                padding: 0 24px;
+            }
+            &_item {
+                padding-right: 23px;
+            }
+        }
+        &__slider {
+            &_item {
+                width: 625px;
+            }
+        }
+    }
+    .privil {
+        min-height: 980px;
+        padding: 40px 0;
+    }
+    .storage {
+        height: 860px;
+        &__server, &__cloud {
+            width: 100%;
+            &_square {
+                display: none;
+            }
+        }
+        &__server {
+            top: 429px;
+            &_header, &_descr {
+                top: 65%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &_descr {
+                top: 68%;
+                text-align: center;
+            }
+        }
+        &__header {
+            top: 50%;
+            transform: translate(50%, -50%);
+            font-size: 31px;
+        }
+        &__cloud {
+            &_header, &_descr {
+                top: 12%;
+                right: 50%;
+                transform: translateX(50%);
+            }
+            &_descr {
+                text-align: center;
+                top: 15%;
+            }
+        }
+    }
+    .footer {
+        &__main {
+            &_company {
+                padding-right: 7px;
+                &_text {
+                    font-size: 12px;
+                }
+            }
+            &_modules, &_us, &_industry {
+                padding-right: 7px;
+                &_list {
+                    &_item {
+                        font-size: 13px;
+                    }
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .header {
+        &__item {
+            &_inf {
+                &_descr {
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+    .promo {
+        min-height: 600px;
+        height: 600px;
+        &__header{
+            &_menu {
+                margin-top: 20px;
+                padding-right: 0;
+                display: flex;
+                justify-content: space-between;
+                &_list {
+                    font-size: 12px;
+                }
+            }
+        }
+        .row {
+            justify-content: center;
+        }
+        &__phone {
+            width: 260px;
+            margin-top: 110px;
+        }
+    }
+    .adv {
+        &__question-item {
+            width: 162px;
+            &_descr {
+                font-size: 12px;
+                &_sol {
+                    font-size: 11px;
+                }
+            }
+            &_img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+    .solution {
+        height: 600px;
+        padding: 50px 0 35px 0;
+        &__header {
+            font-size: 24px;
+        }   
+        &__tabs {
+            width: 505px;
+            height: 55px;
+            ul {
+                padding: 0px 15px;
+            }
+            &_item {
+                font-size: 11px;
+                padding-right: 14px;
+            }
+        }
+        &__slider {
+            &_item {
+                width: 460px;
+            }
+        }
+        .arrow-left, .arrow-right {
+            position: absolute;
+            top: 64%;
+        }
+        .arrow-left {
+            left: 5%
+        }
+        .arrow-right {
+            right: 6%;
+        }
+    }
+    .privil {
+        min-height: 725px;
+    }
+    .storage {
+        height: 680px;
+        &__header {
+            font-size: 23px;
+            top: 50%
+        }
+        &__cloud, &__server {
+            height: 340px;
+        }
+        &__cloud {
+            &_header {
+                font-size: 24px;
+            }
+            &_descr {
+                font-size: 17px;
+            }
+        }
+        &__server {
+            top: 339px;
+            &_header {
+                top: 65%;
+                font-size: 22px;
+            }
+            &_descr {
+                top: 68%;
+                font-size: 17px;
+            }
+        }
+    }
+    .start {
+        &__rect {
+            width: 230px;
+            height: 230px;
+        }
+        &__icon {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .footer {
+        &__main {
+            &_modules, &_us, &_industry {
+                &_list {
+                    &_item {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .header {
+        &__item {
+            &_inf {
+                &_descr {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    .promo {
+        min-height: 500px;
+        height: 500px;
+        &__main-text {
+            font-size: 23px;
+            text-align: center;
+        }
+        &__main-descr {
+            text-align: center;
+        }
+        &__header {
+            &_menu {
+                &_list {
+                    font-size: 9px;
+                    padding-right: 9px;
+                }
+            }
+        }
+        &__wrapper {
+            padding-top: 50px;
+        }
+        &__phone {
+            display: none;
+        }
+        &__button {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+    .start {
+        height: 600px;
+        padding: 45px 0;
+        &__header {
+            font-size: 19px;
+            line-height: 29px;
+        }
+    }
+    .footer {
+        &__main {
+            &_company {
+                &_icon {
+                    width: 120px;
+                }
+                &_text {
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+            &_modules, &_us, &_industry {
+                &_header {
+                    font-size: 14px;
+                }
+                padding-right: 4px;
+                &_list {
+                    &_item {
+                        font-size: 8px;
+                        line-height: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .adv {
+        height: 600px;
+        min-height:600px;    
+        &__question-item {
+            width: 95px;
+            height: 140px;
+            &_img {
+                width: 60px;
+                height: 60px;
+            }
+            &_descr {
+                font-size: 9px;
+                line-height: 11px;
+                &_sol {
+                    font-size: 9px;
+                    line-height: 11px;
+                }
+            }
+        }
+    }
+    .solution {
+        height: 400px;
+        &__slider {
+            &_item {
+                width: 230px;
+            }
+        }
+        &__header {
+            font-size: 17px;
+            line-height: 20px;
+        }
+        &__tabs {
+            width: 290px;
+            height: 45px;
+            ul {
+                padding: 0px 7px;
+            }
+            &_item {
+                font-size: 7px;
+                padding-right: 3px;
+            }
+        }
+    }
+    .privil {
+        &__header {
+            font-size: 23px;
+            margin-bottom: 20px;
+        }
+    }
+    .storage {
+        height: 520px;
+        &__header {
+            font-size: 20px;
+            line-height: 22px;
+            top: 50%
+        }
+        &__cloud, &__server {
+            height: 260px;
+        }
+        &__cloud {
+            &_header {
+                font-size: 16px;
+                line-height: 18px;
+                text-align: center;
+            }
+            &_descr {
+                font-size: 13px;
+                line-height: 16px;
+                width: 80%;
+                top: 19%;
+            }
+        }
+        &__server {
+            top: 260px;
+            &_header {
+                top: 65%;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: center;
+            }
+            &_descr {
+                top: 72%;
+                font-size: 13px;
+                line-height: 16px;
+                width: 80%;            
+            }
+        }
+    }
+}

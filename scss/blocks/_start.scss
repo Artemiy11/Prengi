@@ -1,0 +1,113 @@
+.start {
+    height: 700px;
+    padding: 80px 0;
+    &__header {
+        color: #393939;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+        text-align: center;
+        margin-top: 75px;
+    }
+    &__btn {
+        display: block;
+        width: 241px;
+        height: 60px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+        background-color: #00c2f0;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 4px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &__icon {
+        width: 240px;
+        height: 240px;
+    }
+    &__rect {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        height: 302px;
+        width: 302px;
+        &_top-right {
+            position:absolute;
+            top:0;
+            right:0;
+            width: 40px;
+            border-top:2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+        &_body-right {
+            position:absolute;
+            top:0;
+            right:0;
+            height: 40px;
+            border-right: 2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+        &_top-left {
+            position:absolute;
+            top:0;
+            left:0;
+            width: 40px;
+            border-top: 2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+        &_body-left {
+            position:absolute;
+            top:0;
+            left:0;
+            height: 40px;
+            border-right: 2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+        &_bottom-left {
+            position:absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            border-top: 2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+        &:before {
+            position:absolute;
+            bottom: 0;
+            left: 0;
+            height: 40px;
+            border-left: 2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+        &_bottom-right {
+            position:absolute;
+            bottom: 0;
+            right: 0;
+            height: 40px;
+            border-right: 2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+        &:after {
+            position:absolute;
+            bottom: 0;
+            right: 0;
+            width: 40px;
+            border-bottom: 2px solid #00c2f0;
+            border-radius: 2px;
+            content:"";
+        }
+    }
+}

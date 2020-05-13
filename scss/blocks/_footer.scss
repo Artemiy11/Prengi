@@ -1,0 +1,99 @@
+.footer {
+    background-color: #0082a1;
+    height: 500px;
+    padding: 50px 0 40px 0;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        &_company {
+            width: 377px;
+            height: 248px;
+            &_icon {
+                margin-top: 12px;
+            }
+            &_header {
+                font-size: 16px;
+                font-weight: 700;
+                color: #fff;
+            }
+            &_text {
+                margin-top: 20px;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 19px;
+            }
+        }
+        &_modules {
+            width: 263px;
+            height: 314px;
+            &_header {
+                color: #fff;
+                font-size: 16px;
+                font-weight: 700;
+            }
+            &_list {
+                padding: 0;
+                list-style-type: none;
+                &_item {
+                    line-height: 23px;
+                    font-weight: 300;
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &_industry {
+            &_header {
+                font-size: 16px;
+                font-weight: 700;   
+                color: #fff;
+            }
+            &_list {
+                padding: 0;
+                list-style-type: none;
+                &_item {
+                    line-height: 23px;
+                    font-weight: 300;
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &_us {
+            &_header {
+                font-size: 16px;
+                font-weight: 700;   
+                color: #fff;
+            }
+            &_list {
+                padding: 0;
+                list-style-type: none;
+                &_item {
+                    line-height: 23px;
+                    font-weight: 300;
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    hr {
+        margin-top: 50px;
+        height: 1px;
+        opacity: 0.3;
+    }
+    &__rights {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+}

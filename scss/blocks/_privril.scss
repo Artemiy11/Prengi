@@ -1,0 +1,30 @@
+.privil {
+    min-height: 1334px;
+    padding: 80px 0;
+    &__header {
+        color: #393939;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 35.99px;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+    &__item {
+        position: relative;
+        &_text {
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            color: #ffffff;
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: center;
+        }
+    }
+}
+
+.col-6 {
+    margin: 0;
+    padding: 0;
+}
